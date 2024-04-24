@@ -10,7 +10,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.datasets import load_iris  
 
 
-df = pd.read_csv('csv_files/breast_cancer_diagnosis.csv')
+df = pd.read_csv('Notebooks/breast_cancer_diagnosis.csv')
 
 label_encoder = LabelEncoder()
 df['diagnosiss'] = label_encoder.fit_transform(df['diagnosis'])

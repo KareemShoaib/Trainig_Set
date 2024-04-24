@@ -10,7 +10,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.datasets import load_iris  
 
 
-df_iphone = pd.read_csv('csv_files/Iphone_purchase.csv')
+df_iphone = pd.read_csv('Notebooks/Iphone_purchase.csv')
 
 
 label_encoder = LabelEncoder()
